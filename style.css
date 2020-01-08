@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+small{
+    text-align: right;
+}
+
+
+h1{
+    font-size: 3em;
+    font-family: cursive;
+    color: bisque;
+}
+h2{
+    font-size: 2em;
+    font-family: cursive;
+    color: bisque;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color: bisque;
+    height: 50px;
+    width: 300px;
+}
+
+div{
+    margin-bottom: auto;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+#top10{
+    font-size: 2em;
+}
+
+#bio{
+    font-family: 'Dancing Script', cursive;
+    margin: 1px;
+    padding: 1px;
+    font-size: 1.5em;
+}
