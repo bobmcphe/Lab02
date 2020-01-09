@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 var firstName = prompt('Please enter your name:');
 console.log('The user put in ' + firstName);
 
@@ -47,7 +47,7 @@ if(sixthQ.toUpperCase() === 'YES'){
 }
 console.log('The user put in ' + sixthQ);
 
-
+alert('But let me quiz you for a bit. I didn\'t want to but I have no choice ¯\_(ツ)_/¯') */
 
 /* sixth question */
 
@@ -56,16 +56,18 @@ var answer = 5;
 
 for (i; i < 4; i++) {
   var seventhQ = prompt('How many years old is my puppy?');
+  var num7Q = Number(seventhQ)
+  console.log('The user entered ' + seventhQ);
   
-  if (seventhQ == answer){
+  if (num7Q == answer){
     alert('Correct!');
     break;
   } 
-    else if (seventhQ > answer){
+    else if (num7Q > answer){
     alert('Nope, too old. try again.');
   
   }
-    else if (seventhQ < answer){
+    else if (num7Q < answer){
     alert ('Nope, too young. try again.');
 }}
 
