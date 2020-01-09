@@ -42,23 +42,33 @@ if(thirdQ.toUpperCase() === 'YES'){
 
 q3();
 
+function q4() {
 var fifthQ = prompt('Will you be interested to learn more about me?');
 if(fifthQ.toUpperCase() === 'YES'){
-  alert('I promise I will not be boring!');
-} else{
-  alert('Oh. Well I do not think you have much choice >:)');
+    alert('I promise I will not be boring!');
+  } else{
+    alert('Oh. Well I do not think you have much choice >:)');
+  }
+  console.log('The user put in ' + fifthQ);
 }
-console.log('The user put in ' + fifthQ);
+
+q4();
+
+function q5() {
 
 var sixthQ = prompt('Do you have any other questions before we get started?');
 if(sixthQ.toUpperCase() === 'YES'){
-  alert('Hang on to it, ' + firstName + '! You might get the answer on my page!');
-} else{
-  alert('I am sure you will be interested very soon, ' + firstName + '!');
-}
-console.log('The user put in ' + sixthQ);
+    alert('Hang on to it, ' + firstName + '! You might get the answer on my page!');
+  } else{
+    alert('I am sure you will be interested very soon, ' + firstName + '!');
+  }
+  console.log('The user put in ' + sixthQ);
 
 alert('But let me quiz you for a bit. I didn\'t want to but I have no choice ¯\_(ツ)_/¯') 
+
+}
+
+q5();
 
 /* sixth question */
 
