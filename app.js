@@ -15,7 +15,7 @@ function q1() {
 
 q1();
 
-
+function q2() {
 var secondQ = prompt('Are you also a student in codefellow?');
 if(secondQ.toUpperCase() === 'YES'){
     alert('Hello fellow cohorts!');
@@ -25,7 +25,7 @@ if(secondQ.toUpperCase() === 'YES'){
   console.log('The user put in ' + secondQ);
 }
 
-
+q2();
 
 var thirdQ = prompt('Are you also based in Seattle?');
 if(thirdQ.toUpperCase() === 'YES'){
