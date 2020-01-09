@@ -72,27 +72,32 @@ q5();
 
 /* sixth question */
 
-var i = 0;
-var answer = 5;
 
-for (i; i < 4; i++) {
-  var seventhQ = prompt('How many years old is my puppy?');
-  var num7Q = Number(seventhQ)
-  console.log('The user entered ' + seventhQ);
-  
-  if (num7Q == answer){
-    alert('Correct!');
-    break;
-  } 
-    else if (num7Q > answer){
-    alert('Nope, too old. try again.');
-  
-  }
-    else if (num7Q < answer){
-    alert ('Nope, too young. try again.');
-}}
+function q6() {
+  var i = 0;
+  var answer = 5;
 
-alert('He is 5 years old!')
+  for (i; i < 4; i++) {
+    var seventhQ = prompt('How many years old is my puppy?');
+    var num7Q = Number(seventhQ)
+    console.log('The user entered ' + seventhQ);
+    
+    if (num7Q == answer){
+      alert('Correct!');
+      break;
+    } 
+      else if (num7Q > answer){
+      alert('Nope, too old. try again.');
+    
+    }
+      else if (num7Q < answer){
+      alert ('Nope, too young. try again.');
+  }}
+
+  alert('He is 5 years old!')
+}
+
+q6();
 
 
 /* seventh question*/
