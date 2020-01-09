@@ -1,24 +1,30 @@
 'use strict';
-/*
-var firstName = prompt('Please enter your name:');
-console.log('The user put in ' + firstName);
 
-var firstQ = prompt('Hi, ' + firstName + '. Is this the first time for you to visit my website?');
-if(firstQ.toUpperCase() === 'YES'){
-  alert('Welcome! You will learn more about me in this website.');
-} else{
-  alert('Welcome back!');
+function q1() {
+  var firstName = prompt('Please enter your name:');
+  console.log('The user put in ' + firstName);
+
+  var firstQ = prompt('Hi, ' + firstName + '. Is this the first time for you to visit my website?');
+  if(firstQ.toUpperCase() === 'YES'){
+      alert('Welcome! You will learn more about me in this website.');
+    } else{
+      alert('Welcome back!');
+    }
+    console.log('The user put in ' + firstQ);
 }
-console.log('The user put in ' + firstQ);
+
+q1();
 
 
 var secondQ = prompt('Are you also a student in codefellow?');
 if(secondQ.toUpperCase() === 'YES'){
-  alert('Hello fellow cohorts!');
-} else{
-  alert('Oh. Well Codefellow is an institution that I will be spending most of my time talking about in this website.');
+    alert('Hello fellow cohorts!');
+  } else{
+    alert('Oh. Well Codefellow is an institution that I will be spending most of my time talking about in this website.');
+  }
+  console.log('The user put in ' + secondQ);
 }
-console.log('The user put in ' + secondQ);
+
 
 
 var thirdQ = prompt('Are you also based in Seattle?');
@@ -47,7 +53,7 @@ if(sixthQ.toUpperCase() === 'YES'){
 }
 console.log('The user put in ' + sixthQ);
 
-alert('But let me quiz you for a bit. I didn\'t want to but I have no choice ¯\_(ツ)_/¯') */
+alert('But let me quiz you for a bit. I didn\'t want to but I have no choice ¯\_(ツ)_/¯') 
 
 /* sixth question */
 
