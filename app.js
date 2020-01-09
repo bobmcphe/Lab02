@@ -27,15 +27,20 @@ if(secondQ.toUpperCase() === 'YES'){
 
 q2();
 
+function q3() {
+
 var thirdQ = prompt('Are you also based in Seattle?');
 if(thirdQ.toUpperCase() === 'YES'){
-  alert('Seattle is amazing!');
-} else{
-  var forthQ = prompt('Oh. Well where are you from then?');
-  alert('Oh, '+forthQ+ '! That is far!');
-  console.log('The user put in ' + forthQ);
+    alert('Seattle is amazing!');
+  } else{
+    var forthQ = prompt('Oh. Well where are you from then?');
+    alert('Oh, '+forthQ+ '! That is far!');
+    console.log('The user put in ' + forthQ);
+  }
+  console.log('The user put in ' + thirdQ);
 }
-console.log('The user put in ' + thirdQ);
+
+q3();
 
 var fifthQ = prompt('Will you be interested to learn more about me?');
 if(fifthQ.toUpperCase() === 'YES'){
