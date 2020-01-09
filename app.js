@@ -102,24 +102,29 @@ q6();
 
 /* seventh question*/
 
-var answers = ['indonesia', 'singapore', 'seattle', 'egypt','los angeles','las vegas','malaysia'];
-var flag = false;
-var numberOfGuesses = 0;
+function q7() {
 
-while ( flag === false && numberOfGuesses < 6) {
-  var questions = prompt('Where have I visited?');
+  var answers = ['indonesia', 'singapore', 'seattle', 'egypt','los angeles','las vegas','malaysia'];
+  var flag = false;
+  var numberOfGuesses = 0;
 
-  for (var i = 0; i < answers.length ; i++){
-     if (questions.toLowerCase() == answers[i]){
-      alert('You are right!');
-      flag = true;
-      break;
-     } 
-  }
-    if (flag ==false){
-      alert('Incorrect');
-    numberOfGuesses++;
+  while ( flag === false && numberOfGuesses < 6) {
+    var questions = prompt('Where have I visited?');
+
+    for (var i = 0; i < answers.length ; i++){
+      if (questions.toLowerCase() == answers[i]){
+        alert('You are right!');
+        flag = true;
+        break;
+      } 
     }
+      if (flag ==false){
+        alert('Incorrect');
+        numberOfGuesses++;
+      }
+  }
+  alert('I have visited: ' + answers[0] +', '+ answers[1] +', '+ answers[2] +', '+ answers[3] +', '+ answers[4] +', '+ answers[5] +', '+ answers[6] + '!')
+  alert('You made ' +  (numberOfGuesses + 1) + ' guesses out of 6 guesses!')
 }
-alert('I have visited: ' + answers[0] +', '+ answers[1] +', '+ answers[2] +', '+ answers[3] +', '+ answers[4] +', '+ answers[5] +', '+ answers[6] + '!')
-alert('You made ' +  (numberOfGuesses + 1) + ' guesses out of 6 guesses!')
+
+q7();
