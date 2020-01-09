@@ -29,7 +29,10 @@ div{
     font-family: 'Dancing Script', cursive;
     
 }
-
+ul{
+    font-size: 1.5em;
+    font-family: 'Dancing Script', cursive;
+}
 #top10{
     font-size: 2em;
 }
